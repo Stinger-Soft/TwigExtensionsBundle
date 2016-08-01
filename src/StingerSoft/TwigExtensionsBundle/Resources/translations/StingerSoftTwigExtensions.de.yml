@@ -1,9 +1,9 @@
 stinger_soft.twig_extensions.pretty_print.time:
-  second: '{0} 0 Sekunden|{1} 1 Sekunde|]1,Inf[ %count% Sekunden'
-  minute: '{0} 0 Minuten|{1} 1 Minute|]1,Inf[ %count% Minuten'
-  hour: '{0} 0 Stunden|{1} 1 Stunde|]1,Inf[ %count% Stunden'
-  day: '{0} 0 Tagen|{1} 1 Tag|]1,Inf[ %count% Tagen'
-  week: '{0} 0 Wochen|{1} 1 Woche|]1,Inf[ %count% Wochen'
-  month: '{0} 0 Monate|{1} 1 Monat|]1,Inf[ %count% Monate'
-  year: '{0} 0 Jahren|{1} 1 Jahr|]1,Inf[ %count% Jahren'
+  seconds: '{0} 0 Sekunden|{1} 1 Sekunde|]1,Inf[ %count% Sekunden'
+  minutes: '{0} 0 Minuten|{1} 1 Minute|]1,Inf[ %count% Minuten'
+  hours: '{0} 0 Stunden|{1} 1 Stunde|]1,Inf[ %count% Stunden'
+  days: '{0} 0 Tagen|{1} 1 Tag|]1,Inf[ %count% Tagen'
+  weeks: '{0} 0 Wochen|{1} 1 Woche|]1,Inf[ %count% Wochen'
+  months: '{0} 0 Monate|{1} 1 Monat|]1,Inf[ %count% Monate'
+  years: '{0} 0 Jahren|{1} 1 Jahr|]1,Inf[ %count% Jahren'
   diff: "vor %time%"
