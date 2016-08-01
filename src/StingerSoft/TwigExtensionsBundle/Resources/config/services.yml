@@ -1,0 +1,27 @@
+parameters:
+  stinger_soft.twig_extensions.array.class: 'StingerSoft\TwigExtensions\ArrayExtensions'
+  stinger_soft.twig_extensions.pretty_print.class: 'StingerSoft\TwigExtensions\PrettyPrintExtensions'
+  stinger_soft.twig_extensions.static.class: 'StingerSoft\TwigExtensions\StaticExtensions'
+  stinger_soft.twig_extensions.string.class: 'StingerSoft\TwigExtensions\StringExtensions'
+
+
+services:
+  stinger_soft.twig_extensions.array:
+    class: %stinger_soft.twig_extensions.array.class%
+    tags:
+      - { name: twig.extension }
+      
+  stinger_soft.twig_extensions.pretty_print:
+    class: %stinger_soft.twig_extensions.pretty_print.class%
+    tags:
+      - { name: twig.extension }
+      
+  stinger_soft.twig_extensions.static:
+    class: %stinger_soft.twig_extensions.static.class%
+    tags:
+      - { name: twig.extension }
+      
+  stinger_soft.twig_extensions.string:
+    class: %stinger_soft.twig_extensions.string.class%
+    tags:
+      - { name: twig.extension }
