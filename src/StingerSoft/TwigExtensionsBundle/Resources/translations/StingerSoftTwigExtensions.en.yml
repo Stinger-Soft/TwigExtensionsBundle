@@ -1,0 +1,9 @@
+stinger_soft.twig_extensions.pretty_print.time:
+  second: '{0} 0 Seconds|{1} 1 Second|]1,Inf[ %count% Seconds'
+  minute: '{0} 0 Minutes|{1} 1 Minute|]1,Inf[ %count% Minutes'
+  hour: '{0} 0 Hours|{1} 1 Hours|]1,Inf[ %count% Hours'
+  day: '{0} 0 Days|{1} 1 Day|]1,Inf[ %count% Days'
+  week: '{0} 0 Weeks|{1} 1 Week|]1,Inf[ %count% Weeks'
+  month: '{0} 0 Months|{1} 1 Month|]1,Inf[ %count% Months'
+  year: '{0} 0 Years|{1} 1 Year|]1,Inf[ %count% Years'
+  diff: "%time% ago"
