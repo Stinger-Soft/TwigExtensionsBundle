@@ -28,13 +28,13 @@
 	},
 	"license" : "Apache-2.0",
 	"require" : {
-		"php" : ">=5.5",
-		"symfony/framework-bundle" : "^2.8|^3.0",
-		"stinger-soft/twig-extensions" : "^0.1"
+		"php" : ">=7.2",
+		"symfony/framework-bundle" : "^3.0|^4.0",
+		"stinger-soft/twig-extensions" : "~1.0"
 	},
 	"require-dev" : {
-		"phpunit/phpunit" : "~4.1|~5.0",
-		"satooshi/php-coveralls" : "~0.7.1"
+		"phpunit/phpunit" : "~7.3.5",
+		"php-coveralls/php-coveralls" : "~2.1.0"
 	},
 	"extra" : {
 		"branch-alias" : {
