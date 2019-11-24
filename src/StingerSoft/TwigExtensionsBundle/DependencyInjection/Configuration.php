@@ -13,6 +13,7 @@ namespace StingerSoft\TwigExtensionsBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
+use Symfony\Component\HttpKernel\Kernel;
 
 /**
  * This is the class that validates and merges configuration from your app/config files
@@ -28,8 +29,14 @@ class Configuration implements ConfigurationInterface {
 	 * @see \Symfony\Component\Config\Definition\ConfigurationInterface::getConfigTreeBuilder()
 	 */
 	public function getConfigTreeBuilder() {
-		$treeBuilder = new TreeBuilder();
-		$treeBuilder->root('stinger_soft_twig_extensions');
+		$configName = 'stinger_soft_twig_extensions';
+		if(Kernel::VERSION_ID < 40300) {
+			$treeBuilder = new TreeBuilder();
+			$treeBuilder->root($configName);
+		} else {
+			$treeBuilder = new TreeBuilder($configName);
+			$treeBuilder->getRootNode();
+		}
 		return $treeBuilder;
 	}
 }
