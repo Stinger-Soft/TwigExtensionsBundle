@@ -1,0 +1,8 @@
+stinger_soft.twig_extensions.pretty_print.time.seconds: '{0} 0 秒|{1} 1 秒|]1,Inf[%count%秒'
+stinger_soft.twig_extensions.pretty_print.time.minutes: '{0} 0 分|{1} 1 分|]1,Inf[ %count% 分'
+stinger_soft.twig_extensions.pretty_print.time.hours: '{0} 0 時間|{1} 1 時間|]1,Inf[ %count% 時間'
+stinger_soft.twig_extensions.pretty_print.time.days: '{0} 0 日|{1} 1 日|]1,Inf[ %count% 日'
+stinger_soft.twig_extensions.pretty_print.time.weeks: '{0} 0 週|{1} 1 週|]1,Inf[ %count% 週'
+stinger_soft.twig_extensions.pretty_print.time.months: '{0} 0か月|{1} 1か月|]1,Inf[ %count% 月'
+stinger_soft.twig_extensions.pretty_print.time.years: '{0} 0年|{1} 1年|]1,Inf[ %count% 年'
+stinger_soft.twig_extensions.pretty_print.time.diff: '%time%前'
